@@ -1,0 +1,36 @@
+div.trueHeader
+  overflow: hidden
+  box-shadow: 0px 2px 2px 0px #eee
+  bordsh
+  div.container
+    display: grid
+    width: 100%
+    grid-template-columns: minmax(100px,200px) minmax(185px, 1fr) 
+    grid-template-areas: "box-1 box-2" "box-3 box-3"
+    grid-gap: 5px
+    padding: 14px
+    div.visma
+      grid-area: box-1
+      img 
+        width: 100%
+
+    div.pcss
+      text-align: right
+      grid-area: box-2
+      img 
+        width: 100%
+        max-width: 200px
+    div.navbar-toggle
+      display: flex
+      justify-content: space-between
+      grid-area: box-3
+      background-color: $nav_bar
+      padding: 8px
+      font-size: $mediaFont
+      line-height: 110%
+      border-radius: 5px
+      p 
+        display: inline-block
+        text-transform: uppercase
+      i 
+        font-size: 1.4rem
