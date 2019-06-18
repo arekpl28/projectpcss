@@ -120,7 +120,7 @@ div.trueHeader div.container div.navbar-toggle i {
 }
 
 main div.container {
-  margin: 50px 10px;
+  margin: 50px 10px 10px;
 }
 
 main div.container div.content_fullwidth div.wpb_wrapper {
@@ -160,7 +160,7 @@ main div.container div.content_fullwidth div.wpb_wrapper img {
 
 div.vc_row-container div.left div.vc_cta3-container div.vc_general {
   margin-top: 20px;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   font-size: 1.4rem;
   text-align: center;
   background-color: #ebebeb;
@@ -261,5 +261,34 @@ div.vc_row-container div.left div.vc_cta3-container div.vc_general.container p.t
 
 div.vc_row-container div.left div.vc_cta3-container div.vc_general.container p.text-4 {
   font-weight: bold;
+}
+
+div.vc_row-container {
+  margin-bottom: 100px;
+}
+
+div.vc_row-container div.right div.wpb_column img {
+  width: 100%;
+}
+
+div.vc_row-container div.right div.wpb_column div.post {
+  background-color: #f9f9f9;
+  margin-top: 30px;
+}
+
+div.vc_row-container div.right div.wpb_column div.post h2 {
+  font-size: 1.8rem;
+  padding: 10px 10px 20px 10px;
+  font-family: 'Raleway', sans-serif;
+  color: #272727;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+div.vc_row-container div.right div.wpb_column div.post p {
+  font-size: 1.4rem;
+  padding: 10px 10px 20px 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: #727272;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,29 +1,39 @@
-import React from "react";
+import React, { Component } from "react";
 
-import autoinvoice from "../../image/autoinvoice.png";
+import PostList from "./PostList";
 
-const Right = () => {
-  return (
-    <>
-      <div className="wpb_column">
-        <div className="post">
-          <div className="autoinvoice_img">
-            <img src={autoinvoice} alt="autoinvoice" />
-          </div>
-          <h2>Effektiviser faktureringen med Efaktura</h2>
-          <p className="text">
-            Visma.net har en innebygget faktureringsmotor, Visma.net
-            AutoInvoice, som håndterer alle bedriftens inn- og utgående
-            fakturaer. Denne løsningen gir deg full kontroll på
-            faktureringsprosessen og sørger for at arbeidsflyten er strømlinjet.
-            I denne motoren kan du sende, motta og konvertere elektroniske
-            fakturaer og kreditnotaer i internasjonale og nasjonale formater.
-            Løsningen støtter følgende formater for sending og mottakelse: […]
-          </p>
+class Right extends Component {
+  state = {
+    posts: []
+  };
+
+  componentDidMount() {
+    fetch("https://arekpl28.github.io//json-example/data.json")
+      .then(response => {
+        if (response.ok) {
+          return response;
+        }
+      })
+      .then(response => response.json())
+      .then(data => {
+        const posts = data.post;
+        this.setState(prevState => ({
+          posts: prevState.posts.concat(posts)
+        }));
+      });
+  }
+
+  render() {
+    const { posts } = this.state;
+
+    return (
+      <>
+        <div className="wpb_column">
+          {posts.length > 0 ? <PostList posts={posts} /> : posts}
         </div>
-      </div>
-    </>
-  );
-};
+      </>
+    );
+  }
+}
 
 export default Right;
