@@ -30,7 +30,7 @@ div.top_nav ul.container {
 
 div.top_nav ul.container li {
   list-style: none;
-  padding-left: 10px;
+  padding-left: 5px;
 }
 
 div.top_nav ul.container li a {
@@ -42,7 +42,7 @@ div.top_nav ul.container li a {
 div.top_nav ul.container li a i {
   width: 22px;
   font-size: 12px;
-  padding: 4px;
+  padding: 04px;
   border: 1px solid #727272;
   border-radius: 50%;
   text-align: center;
@@ -68,6 +68,7 @@ div.trueHeader div.container {
       grid-template-areas: "box-1 box-2" "box-3 box-3";
   grid-gap: 5px;
   padding: 14px;
+  margin: 20px 0;
 }
 
 div.trueHeader div.container div.visma {
