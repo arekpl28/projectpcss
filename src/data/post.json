@@ -1,0 +1,8 @@
+{
+  "post": [{
+    "id": 0,
+    "title": "Effektiviser faktureringen med Efaktura",
+    "text": "Visma.net har en innebygget faktureringsmotor, Visma.net AutoInvoice, som håndterer alle bedriftens inn- og utgående fakturaer. Denne løsningen gir deg full kontroll på faktureringsprosessen og sørger for at arbeidsflyten er strømlinjet. I denne motoren kan du sende, motta og konvertere elektroniske fakturaer og kreditnotaer i internasjonale og nasjonale formater. Løsningen støtter følgende formater for sending og mottakelse:  […]",
+    "img": "src/image/autoinvoice.png"
+  }]
+}
