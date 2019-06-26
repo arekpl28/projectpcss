@@ -23,7 +23,7 @@ const Left = () => {
             Ta kontakt med oss for et prat om backup!
           </button>
         </div>
-        <div className="vc_general">
+        <div className="vc_general nettbasert">
           <h2>10 grunner til å velge nettbasert ERP!</h2>
           <p className="text-1">
             Visma har laget en gratis guide for deg som vurderer nettbasert ERP.

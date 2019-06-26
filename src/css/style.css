@@ -161,7 +161,7 @@ main div.container div.content_fullwidth div.wpb_wrapper img {
 
 div.vc_row-container div.left div.vc_cta3-container div.vc_general {
   margin-top: 20px;
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 20px 20px;
   font-size: 1.4rem;
   text-align: center;
   background-color: #ebebeb;
@@ -189,7 +189,6 @@ div.vc_row-container div.left div.vc_cta3-container div.vc_general p.text-2 {
 div.vc_row-container div.left div.vc_cta3-container div.vc_general button.pro_partner {
   font-size: 1.2rem;
   padding: 14px 10px;
-  margin-bottom: 15px;
   border-style: none;
   border-radius: 5px;
   color: white;
@@ -291,5 +290,165 @@ div.vc_row-container div.right div.wpb_column div.post p {
   padding: 10px 10px 20px 10px;
   font-family: 'Open Sans', sans-serif;
   color: #727272;
+}
+
+footer {
+  background-color: #181818;
+}
+
+footer div.container {
+  padding: 20px;
+}
+
+footer div.container div.one_fourth {
+  padding-top: 40px;
+  color: #727272;
+  font-size: 1.4rem;
+}
+
+footer div.container div.one_fourth h3 {
+  font-size: 2.2rem;
+  padding-bottom: 20px;
+  font-weight: normal;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+footer div.container div.one_fourth ul li {
+  height: 40px;
+  border-bottom: 1px solid #272727;
+  list-style: none;
+}
+
+footer div.container div.one_fourth ul li div.triangle {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid #727272;
+}
+
+footer div.container div.one_fourth ul li a {
+  margin-left: 5px;
+  line-height: 40px;
+  font-family: 'PT Sans', sans-serif;
+  color: #727272;
+  text-decoration: none;
+}
+
+footer div.container div.one_fourth form.search_form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 50px;
+      grid-template-columns: 1fr 50px;
+  width: 100%;
+}
+
+footer div.container div.one_fourth form.search_form input {
+  font-size: 1.6rem;
+  height: 42px;
+  padding: 5px 10px;
+}
+
+footer div.container div.one_fourth form.search_form button {
+  font-size: 1.8rem;
+  background-color: #fc4242;
+  border: none;
+  color: white;
+}
+
+footer div.container div.one_fourth div.address {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20px 1fr;
+      grid-template-columns: 20px 1fr;
+  padding-bottom: 10px;
+}
+
+footer div.container div.one_fourth div.tel {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20px 1fr;
+      grid-template-columns: 20px 1fr;
+  padding-bottom: 10px;
+}
+
+footer div.container div.one_fourth div.mail {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20px 1fr;
+      grid-template-columns: 20px 1fr;
+}
+
+footer div.container div.one_fourth div.mail a {
+  color: #727272;
+  text-decoration: none;
+}
+
+footer div.container div.one_fourth i {
+  line-height: 20px;
+}
+
+footer div.container div.one_fourth form.mail label p {
+  color: white;
+  padding-top: 10px;
+}
+
+footer div.container div.one_fourth form.mail label input {
+  width: 100%;
+  padding: 6px;
+}
+
+footer div.container div.one_fourth form.mail button {
+  font-size: 1.4rem;
+  padding: 6px;
+  border: 1px solid #acacac;
+  border-radius: 5px;
+  background-color: white;
+  outline: none;
+  margin-top: 20px;
+}
+
+footer div.copyright_info {
+  padding: 20px;
+  color: #727272;
+  font-size: 1.4rem;
+  background-color: #303030;
+}
+
+footer div.copyright_info div.info p {
+  line-height: 150%;
+}
+
+footer div.copyright_info div.social {
+  padding-bottom: 50px;
+}
+
+footer div.copyright_info div.social ul {
+  padding-top: 30px;
+  text-align: center;
+}
+
+footer div.copyright_info div.social ul li {
+  display: inline-block;
+  list-style: none;
+  padding-right: 15px;
+}
+
+footer div.copyright_info div.social ul li a {
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  background-color: #595959;
+  text-align: center;
+  border-radius: 50%;
+}
+
+footer div.copyright_info div.social ul li a i {
+  font-size: 12px;
+  line-height: 25px;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */

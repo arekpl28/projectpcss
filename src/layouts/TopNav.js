@@ -6,10 +6,10 @@ const TopNav = () => {
     <div className="top_nav">
       <ul className="container">
         <li>
-          <Link to="#">
+          <a href="mailto:firmapost@pcss.no">
             <i className="far fa-envelope" />
             <p>firmapost@pcss.no</p>
-          </Link>
+          </a>
         </li>
         <li>
           <Link to="#">

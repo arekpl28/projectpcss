@@ -4,6 +4,7 @@ import "../css/style.css";
 import TopNav from "./TopNav";
 import Header from "./Header";
 import Page from "./Page";
+import Footer from "./Footer";
 
 class App extends Component {
   state = {};
@@ -14,6 +15,7 @@ class App extends Component {
           <TopNav />
           <header>{<Header />}</header>
           <main>{<Page />}</main>
+          <footer>{<Footer />}</footer>
         </div>
       </Router>
     );
