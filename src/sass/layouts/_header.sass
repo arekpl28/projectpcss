@@ -5,7 +5,7 @@ div.trueHeader
     display: grid
     width: 100%
     grid-template-columns: minmax(100px,200px) minmax(185px, 1fr) 
-    grid-template-areas: "box-1 box-2" "box-3 box-3"
+    grid-template-areas: "box-1 box-2" "box-3 box-3" "box-4 box-4"
     grid-gap: 5px
     padding: 14px
     margin: 20px 0
@@ -13,7 +13,6 @@ div.trueHeader
       grid-area: box-1
       img 
         width: 100%
-
     div.pcss
       text-align: right
       grid-area: box-2
@@ -34,3 +33,59 @@ div.trueHeader
         text-transform: uppercase
       i 
         font-size: 1.4rem
+    div.defaultmenu
+      grid-area: box-4
+      height: 0
+    div.defaultmenu.active
+      height: auto
+      transition: 0.5s
+      ul 
+        li 
+          list-style: none
+          a 
+            display: inline-block
+            width: 100%
+            font-size: 1.4rem
+            padding: 10px 15px 10px 30px
+            margin-bottom: 1px
+            font-weight: bold
+            background-color: #d3d3d3
+            color: #454545
+            text-transform: uppercase
+            text-decoration: none
+            &.menu-item
+              display: grid
+              grid-template-columns: 1fr 30px
+              grid-template-areas: "box-1 box-2"
+              align-items: center
+              &.service.active, &.about.active, &.active_service.arrow.active
+                color: #fc4242
+              i 
+                grid-area: box-2
+                display: flex
+                height: 100%
+                align-items: center
+                justify-content: center
+                color: gray
+                &.icon
+                  transform: rotate(90deg)
+                  color: #fc4242
+            &.active_service
+              font-size: 1.3rem
+              padding-left: 40px
+              margin-bottom: 0
+              border-bottom: 1px solid #d3d3d3
+              text-transform: none
+              font-weight: normal
+              background-color: #eee
+              &.arrow
+                i 
+                  font-size: 1rem
+                  color: gray
+                  &.icon
+                    color: #fc4242
+              &.integrations
+                padding-left: 60px
+                  
+            
+                

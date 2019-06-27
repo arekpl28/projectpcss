@@ -63,14 +63,13 @@ const Footer = () => {
         </div>
         <div className="one_fourth">
           <h3>Nyhetsbrev</h3>
-          <form className="mail" onSubmit="">
+          <form className="mail">
             <label htmlFor="name">
               <p>Navn</p>
               <input
                 type="text"
                 id="name"
                 name="name"
-                value=""
                 placeholder="Ditt navn"
               />
             </label>
